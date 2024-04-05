@@ -1,11 +1,50 @@
 .App {
-  text-align: center;
+  /* Remove text-align: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-section {
+  background-color: lightgray;
+  padding: 20px;
 }
+
+.navigation-bar {
+  background-color: lightblue;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 50px; /* Add a fixed height */
+  display: flex;
+  align-items: center; /* Vertically center the items */
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Ensure full width */
+}
+
+.navigation-bar li {
+  margin: 0 10px;
+}
+
+.navigation-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.navigation-bar a:hover {
+  font-weight: bold;
+}
+/* Adjust the font size for other components as needed */
+/* For example, if you have a class named '.component', you can do the following: */
+.component {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
