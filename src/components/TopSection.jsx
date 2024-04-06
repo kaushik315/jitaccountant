@@ -4,8 +4,11 @@ import React from 'react';
 const TopSection = () => {
   return (
     <div className="top-section">
-      {/* Your content for the top section */}
-      <h1>Welcome to our website!</h1>
+      <div className="contact-details">
+        <p>Contact us:</p>
+        <p>Email: example@example.com</p>
+        <p>Phone: +1234567890</p>
+      </div>
     </div>
   );
 };
